@@ -1,0 +1,64 @@
+
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 50px;
+    color: darkblue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li:hover{
+    background-color: gold;
+}
+
+ .image-row {
+     display: flex;
+     justify-content: space-between; /* Placerer billederne i venstre, midt og højre */
+     align-items: center; /* Justerer billederne vertikalt */
+ }
+ .list-container {
+     display: flex; /* Flexbox for horizontal alignment */
+     justify-content: space-between; /* Space between the lists */
+ }
+
+section {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottom {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
